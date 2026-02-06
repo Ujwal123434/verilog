@@ -21,5 +21,31 @@ A Verilog design  file(.v)
 A testbench file for simulation 
 A schematic
 ```
+## Simulation
+
+Functional verification of the 8-bit ALU is performed using a Verilog testbench.
+
+The testbench applies different input combinations and select signals to validate all ALU operations. Waveforms are observed to ensure the correctness of the output for each operation.
+
+### Simulation Tools
+The design can be simulated using:
+- Xilinx Vivado Simulator
+
+### Simulation Steps (Vivado)
+
+1. Open Vivado and create a new project.
+2. Add the following files:
+   - rtl/alu.v
+   - tb/alu_tb.v
+3. Set `alu_tb.v` as the top module.
+4. Click **Run Simulation** → **Run Behavioral Simulation**.
+5. Observe the waveform window.
+6. Click **Open Elborated Design** → **Schematic**.
+7. Observe the schematic of design 
+8. Verify that the output matches the expected ALU operation for each select input.
+
+### Simulation Result
+- All ALU operations were verified through waveform analysis.
+- The design functions correctly for all select input combinations.
 
 
