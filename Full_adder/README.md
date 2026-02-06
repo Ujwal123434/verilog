@@ -5,7 +5,7 @@ A full adder is a combinational circuit used to add three 1-bit binary numbers.
 ## Inputs
 - a
 - b
-- cin (carry-in)
+- c (carry-in)
 
 ## Outputs
 - sum
@@ -13,7 +13,7 @@ A full adder is a combinational circuit used to add three 1-bit binary numbers.
 
 ## Truth Table
 
-| A | B | Cin | Sum | Carry |
+| A | B | C | Sum | Carry |
 |---|---|-----|-----|-------|
 | 0 | 0 |  0  |  0  |   0   |
 | 0 | 0 |  1  |  1  |   0   |
@@ -38,3 +38,4 @@ A full adder is a combinational circuit used to add three 1-bit binary numbers.
 - Includes carry-in and carry-out
 - This is a combinational circuit
 - Used as a basic building block for multi-bit adders
+
