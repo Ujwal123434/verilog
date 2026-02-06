@@ -8,14 +8,18 @@ A half adder is basic combinational circuit used add 1-bit binary numbers
 - sum
 - carry  
 ## Truth Table 
-a  b  sum  carry
-0  0   0    0
-0  1   1    0
-1  0   1    0
-1  1   1    1
+
+| A | B | Sum | Carry |
+|---|---|-----|-------|
+| 0 | 0 |  0  |   0   |
+| 0 | 1 |  1  |   0   |
+| 1 | 0 |  1  |   0   |
+| 1 | 1 |  0  |   1   |
+
+
 ## Logic used 
-- sum = aXORb
-- carry = aANDb
+- sum = `a ^ b`
+- carry = `a & b` 
 ## Files
 - half_adder.v
 - half_adder_tb.v
@@ -24,4 +28,5 @@ a  b  sum  carry
 # Notes
 - No carry-in is used
 - This is a combinational circuit
+
 - Used as a basic building block for full adder
