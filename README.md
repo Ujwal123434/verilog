@@ -35,9 +35,9 @@ The design can be simulated using:
 
 1. Open Vivado and create a new project.
 2. Add the following files:
-   - rtl/alu.v
-   - tb/alu_tb.v
-3. Set `alu_tb.v` as the top module.
+   - rtl
+   - tb
+3. Set test bench  as the top module.
 4. Click **Run Simulation** → **Run Behavioral Simulation**.
 5. Observe the waveform window.
 6. Click **Open Elborated Design** → **Schematic**.
@@ -45,7 +45,7 @@ The design can be simulated using:
 8. Verify that the output matches the expected ALU operation for each select input.
 
 ### Simulation Result
-- All ALU operations were verified through waveform analysis.
+- All Combinational circuit operations were verified through waveform analysis.
 - The design functions correctly for all select input combinations.
 
 
