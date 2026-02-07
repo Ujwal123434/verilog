@@ -29,7 +29,7 @@ A full adder is a combinational circuit used to add three 1-bit binary numbers.
 - carry = `(a & b) | (cin & (a ^ b))`
 
 ## Implementations 
-- Using boolean euations of sum and carry
+- Using eqations of sum and carry
 - Using two half adders
 
 ## Files
@@ -42,5 +42,6 @@ A full adder is a combinational circuit used to add three 1-bit binary numbers.
 - Includes carry-in and carry-out
 - This is a combinational circuit
 - Used as a basic building block for multi-bit adders
+
 
 
