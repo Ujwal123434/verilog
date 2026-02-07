@@ -23,9 +23,9 @@ A schematic
 ```
 ## Simulation
 
-Functional verification of the 8-bit ALU is performed using a Verilog testbench.
+Functional verification of the  Combinational circuits is performed using a Verilog testbench.
 
-The testbench applies different input combinations and select signals to validate all ALU operations. Waveforms are observed to ensure the correctness of the output for each operation.
+The testbench applies different input combinations validate all Combinational . Waveforms are observed to ensure the correctness of the output for each operation.
 
 ### Simulation Tools
 The design can be simulated using:
