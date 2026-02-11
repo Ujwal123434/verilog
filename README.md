@@ -1,4 +1,4 @@
-###Combinational-Circuits
+### Combinational-Circuits
 This folder contains basic combinational circuits written in verilog.
 
 Combinational circuits give output based  on current inputs.
