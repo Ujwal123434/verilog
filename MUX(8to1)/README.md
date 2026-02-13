@@ -1,4 +1,4 @@
-# 2:1 Multiplexer in Verilog
+# 8:1 Multiplexer in Verilog
 
 This project implements a **8:1 Multiplexer (MUX)** using Verilog.  
 A multiplexer is a combinational circuit that selects one of several input signals and forwards the selected input to a single output line.
@@ -35,4 +35,5 @@ A multiplexer is a combinational circuit that selects one of several input signa
 ## Notes
 - This is a simple combinational circuit with no memory or clock involved.
 - The select lines `s1` `s2` `s3` decides which input  appears at the output.
+
 
