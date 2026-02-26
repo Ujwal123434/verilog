@@ -1,25 +1,30 @@
-### Combinational-Circuits
-This folder contains basic combinational circuits written in verilog.
+### Verilog
+This repository contains fundamental digital design implementations written in Verilog HDL.
 
-Combinational circuits give output based  on current inputs.
-There is no clock and memory used
+The purpose of this project is to build a strong foundation in RTL design by implementing core digital logic concepts and verifying them through simulation.
 
-- Half Adder
-- Full Adder
-- Half Subtractor
-- Full Subtractor
-- Multiplexers
-- Demultiplexers
-- Encoder
-- Decoder
-- Comparator
+## Overview
 
+The repository includes both combinational and sequential digital circuits.
 
-Each circuit has
+All modules are written using synthesizable Verilog and are organized in a structured manner for clarity and reuse.
 
-- A Verilog design  file(.v) 
-- A testbench file for simulation
-- A schematic
+Each design typically includes
+- Verilog source file (.v)
+- Corresponding testbench
+- Simulation results (waveform verification)
+
+## Design Categories
+
+### Combinational Logic
+
+Circuits where the output depends only on current input values.  
+No clock or memory elements are involved.
+
+### Sequential Logic
+
+Circuits where the output depends on current inputs and previous state.  
+These designs use clock signals and storage elements.
 
 ## Simulation
 
