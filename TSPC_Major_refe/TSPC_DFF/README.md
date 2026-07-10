@@ -59,14 +59,17 @@ The True Single Phase Clock (TSPC) D Flip-Flop is a dynamic CMOS flip-flop that 
 | Fall Time | **269.7 ps** |
 
 ### Power Delay Product (PDP)
+```math
+PDP = P_{avg} \times t_{CQ}
+```
 
-\[
-PDP = Average\ Power \times Clock\text{-}to\text{-}Q\ Delay
-\]
+```math
+PDP = (4.688 \times 10^{-6}\,\text{W}) \times (345.9 \times 10^{-12}\,\text{s})
+```
 
-\[
-PDP = 4.688 \times 10^{-6} \times 345.9 \times 10^{-12}
-\]
+```math
+PDP = 1.6216 \times 10^{-15}\,\text{J}
+```
 
 **PDP = 1.62 fJ**
 
