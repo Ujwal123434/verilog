@@ -24,10 +24,10 @@ The design uses a **synchronous active-low reset**, which resets the counter to 
 
 ```text
 MOD16_Counter/
-├── mod16_counter.v
-├── mod16_counter_tb.v
-├── mod16_counter_schematic.png
-├── mod16_counter_waveform.png
+├── counter.v
+├── tb_counter.v
+├── schematic.png
+├── waveform.png
 └── README.md
 ```
 
