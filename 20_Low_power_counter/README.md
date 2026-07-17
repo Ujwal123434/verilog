@@ -59,12 +59,12 @@ The testbench verifies:
 ## Project Structure
 
 ```
-parameterized-low-power-counter/
-│── rtl/
+counter_low_pwr/
+│
 │   └── low_power_counter.v
-│── tb/
+│
 │   └── tb_low_power_counter.v
-│── waveform/
+│
 │   └── waveform.png
 │── README.md
 ```
