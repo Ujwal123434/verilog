@@ -70,8 +70,7 @@ counter_low_pwr/
 ## Tools Used
 
 - Verilog HDL
-- Vivado Simulator / ModelSim / Icarus Verilog
-- GTKWave (optional)
+- Vivado Simulator
 
 ## Example Waveform
 
