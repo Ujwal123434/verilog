@@ -1,4 +1,4 @@
-# Parameterized Low Power Counter (Verilog)
+# Parameterized Low Power Counter 
 
 ## Overview
 
