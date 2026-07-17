@@ -93,6 +93,3 @@ The waveform demonstrates:
 - Clock-gating support
 - Saturating counter mode
 
-## Author
-
-**Ujwal Kumar L**
