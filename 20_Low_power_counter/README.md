@@ -59,7 +59,7 @@ The testbench verifies:
 ## Project Structure
 
 ```
-parameterized-low-power-counter/
+counter_low_pwr/
 │── counter_low_pwr.v
 │── tb_counter.v
 │── schematic.png
